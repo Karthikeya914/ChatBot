@@ -119,9 +119,11 @@
         }
     
         if (data.reply) {
-          chatBox.innerHTML += `<div class="bot"><b>Bot:</b> ${data.reply}</div>`;
+          const formattedReply = data.reply.replace(/\n/g, "<br>");
+          chatBox.innerHTML += `<div class="bot"><b>Bot:</b> ${formattedReply}</div>`;
         } else if (data.error) {
-          chatBox.innerHTML += `<div class="bot"><b>Error:</b> ${data.error}</div>`;
+          const formattedError = data.error.replace(/\n/g, "<br>");
+          chatBox.innerHTML += `<div class="bot"><b>Error:</b> ${formattedError}</div>`;
         } else {
           chatBox.innerHTML += `<div class="bot"><b>Error:</b> Unexpected response</div>`;
         }
