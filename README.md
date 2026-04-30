@@ -83,6 +83,7 @@ https://chatbot-backend-bhsc.onrender.com/chat
 
 ## Project Structure
 
+```bash
 ChatBot/
 ├── main.py
 ├── index.html
@@ -93,7 +94,6 @@ ChatBot/
 ├── reflection.md
 ├── .env.example
 ├── README.md
-
 ---
 
 ## Prompt Engineering
