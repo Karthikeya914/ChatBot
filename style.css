@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .chat-container {
+    width: 420px;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #chat-box {
+    height: 350px;
+    overflow-y: auto;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+  }
+  
+  .user {
+    text-align: right;
+    margin: 8px 0;
+  }
+  
+  .user div {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 15px;
+    max-width: 70%;
+  }
+  
+  .bot {
+    text-align: left;
+    margin: 8px 0;
+  }
+  
+  .bot div {
+    display: inline-block;
+    background: #e5e5ea;
+    padding: 8px 12px;
+    border-radius: 15px;
+    max-width: 70%;
+  }
+  
+  select, input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
